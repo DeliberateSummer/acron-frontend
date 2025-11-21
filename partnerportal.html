@@ -1,0 +1,1778 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nb-NO" class="scroll-smooth">
+    <head>
+        <script>
+    // Define dataLayer and the gtag function.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+            'ad_storage': 'denied', //advertising
+            'ad_user_data': 'denied', //advertising
+            'ad_personalization': 'denied', //personalization
+            'personalization_storage': 'denied', //personalization
+            'analytics_storage': 'denied', //analytics
+            'functionality_storage': 'granted', //functional
+            'security_storage': 'granted' //functional
+        });
+        let cm_updateConsent = (granted,denied) => {
+                let consent_list = {};
+        granted.forEach((prop)=>{
+            switch (prop){
+                case 'functional':
+                    consent_list['functionality_storage'] = 'granted'    
+                    consent_list['security_storage'] = 'granted'
+                    break;
+                case 'analytics':
+                    consent_list['analytics_storage'] = 'granted'
+                    break;
+                case 'advertising':
+                    consent_list['ad_storage'] = 'granted'
+                    consent_list['ad_user_data'] = 'granted'
+                    break;
+                case 'personalization':
+                    consent_list['personalization_storage'] = 'granted'
+                    consent_list['ad_personalization'] = 'granted'
+                    break;
+            }
+        });
+        denied.forEach((prop)=>{
+            switch (prop){
+                case 'functional':
+                    consent_list['functionality_storage'] = 'denied'    
+                    consent_list['security_storage'] = 'denied'
+                    break;
+                case 'analytics':
+                    consent_list['analytics_storage'] = 'denied'
+                    break;
+                case 'advertising':
+                    consent_list['ad_storage'] = 'denied'
+                    consent_list['ad_user_data'] = 'denied'
+                    break;
+                case 'personalization':
+                    consent_list['personalization_storage'] = 'denied'
+                    consent_list['ad_personalization'] = 'denied'
+                    break;
+            }
+        });
+        for (const [key, value] of Object.entries(consent_list)) {
+            let object = {};
+            object[key] = value;
+            gtag('consent', 'update', object);
+        }
+    }
+</script>
+        <!--
+    ____  _____  _________       ______
+   / __ \/   \ \/ /_  __/ |     / / __ \
+  / / / / /| |\  / / /  | | /| / / / / /
+ / /_/ / ___ |/ / / /   | |/ |/ / /_/ /
+/_____/_/  |_/_/ /_/    |__/|__/\____/
+
+
+    Made by: https://daytwo.no
+    Year: 2025
+    Apply: https://daytwo.no/kontakt
+-->
+
+
+		            			    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="https://daytwo.no">
+    <link type="text/plain" href="https://acron.no//humans.txt" rel="author"/>
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover shrink-to-fit=no">
+
+
+                                    
+    <link href="https://acron.no/assets/images/favicon/favicon_acron.png" rel="shortcut icon" type="image/x-icon"/>
+    <link href="https://acron.no/assets/images/favicon/webicon_acron.png" rel="apple-touch-icon"/>
+
+    <meta name="referrer" content="no-referrer-when-downgrade"/>
+
+            <meta name="robots" content="all"/>
+    
+
+    <meta name="description" content="Velkommen til Acron Partnerportal  – din nøkkel til suksess"/>
+        <meta content="no" property="og:locale"/>
+    <meta content="Acron" property="og:site_name"/>
+    <meta content="website" property="og:type"/>
+    <meta content="https://acron.no/partnere/partnerportal" property="og:url"/>
+    <meta content="Partnerportal" property="og:title"/>
+    <meta content="Velkommen til Acron Partnerportal  – din nøkkel til suksess" property="og:description"/>
+    <meta content="https://acron.no//uploads/Bilder/_cardThumbnail/1118/hero-partnerportal.webp" property="og:image"/>
+    <meta content="1200" property="og:image:width"/>
+    <meta content="630" property="og:image:height"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Partnerportal"/>
+    <meta name="twitter:description" content="Velkommen til Acron Partnerportal  – din nøkkel til suksess"/>
+    <meta name="twitter:image" content="https://acron.no//uploads/Bilder/_cardThumbnail/1118/hero-partnerportal.webp"/>
+    <meta name="twitter:image:width" content="800"/>
+    <meta name="twitter:image:height" content="418"/>
+    <link href="https://acron.no/partnere/partnerportal" rel="canonical"/>
+    <link href="https://acron.no/" rel="home"/>
+
+    <title>
+                            Partnerportal | Acron
+            </title>
+
+
+                    
+                            
+        <link rel="stylesheet" href="/assets/css/lenis.css">
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/nnn3zav.css">
+        
+        
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NM53X99B');
+    </script>
+    <!-- End Google Tag Manager -->
+
+        <script src="https://www.google.com/recaptcha/api.js?render=6LeQ9VUrAAAAAMFJmFNIFj6DLNqE7nztSZaosWzL"></script>
+
+                <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.15.0/dist/cdn.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.0/dist/cdn.min.js"></script>
+
+        <script
+            defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        ></script>
+        <script
+            defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ></script>
+
+    <link href="/build/css/styles.css?v=1763581185" rel="stylesheet">
+<link href="https://acron.no/cpresources/d9801ee4/css/cookiemng.css?v=1763581200" rel="stylesheet"></head>
+
+        <body class="pages ">
+        
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NM53X99B"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+        
+                    
+						
+
+<header class="group w-full z-50 top" main-header>
+    <div class="w-full py-6 absolute left-0 z-50 bg-[#9cadb2] group-[&.scrolling]:fixed group-[&.open]:fixed group-[&.scrolling]:bg-grey-light group-[&.scrolling]:top-0 group-[&.open]:bg-grey-light transition-all duration-300 -top-[200px] group-[&.open]:top-0 group-[&.top]:top-0">
+		<div class="flex w-full wrap items-center justify-between">
+			<div class="hidden tablet:flex gap-x-6 text-dark group-[&.open]:text-black group-[&.scrolling]:text-black">
+				<div class="flex cursor-pointer gap-x-6 relative group/search [&.open]:w-52 transition-all hover:opacity-50 [&.open]:opacity-100" main-header-search-small>
+					<span class="group-[&.open]/search:hidden hover:opacity-50">Søk</span>
+					<form action="https://acron.no/sok" method="GET" class="w-full justify-end flex">
+						<input type="text" name="s" placeholder="Søk" class="appearance-none rounded-none w-0 group-[&.open]/search:w-52 outline-none transition-all absolute top-0 left-0 bg-transparent placeholder:text-dark text-dark placeholder-opacity-100 group-[&.open]:placeholder:text-dark group-[&.open]:text-dark border-b border-dark group-[&.open]:border-dark pb-2" required />
+						<svg class="text-dark group-[&amp;.open]:text-black group-[&amp;.scrolling]:text-black self-end transition-all cursor-pointer relative z-10 hover:opacity-50" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9.0625 15.7322C12.6869 15.7322 15.625 12.794 15.625 9.16968C15.625 5.54531 12.6869 2.60718 9.0625 2.60718C5.43813 2.60718 2.5 5.54531 2.5 9.16968C2.5 12.794 5.43813 15.7322 9.0625 15.7322Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M13.7031 13.8103L17.5 17.6072" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+					</form>
+				</div>
+							</div>
+			<a class="tablet:absolute tablet:flex tablet:left-1/2 tablet:top-1/2 tablet:-translate-x-1/2 tablet:-translate-y-1/2" href="/" aria-label="Acron">
+								    
+    <div content-reveal data-animation-delay=1 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out ">
+                <svg class="text-dark group-[&amp;.open]:text-black group-[&amp;.scrolling]:text-black" width="120" height="34" viewBox="0 0 120 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M120.003 31.135H75.5703V33.3729H120.003V31.135Z" fill="currentColor"/>
+    <path d="M0 17.8063C0 22.6843 3.96869 26.6545 8.84826 26.6545H12.3607V22.823H9.31525C6.55027 22.823 4.30006 20.5728 4.30006 17.8078C4.30006 15.0428 6.55027 12.7926 9.31525 12.7926H15.6991V26.6607H19.9991V8.95801H8.84826C3.96869 8.95801 0 12.9282 0 17.8063Z" fill="currentColor"/>
+    <path d="M111.152 8.95801H101.402V26.6591H105.702V12.7911H110.684C113.449 12.7911 115.699 15.0413 115.699 17.8063V26.6591H119.999V17.8063C119.999 12.9282 116.03 8.95801 111.151 8.95801H111.152Z" fill="currentColor"/>
+    <path d="M26.0273 17.806C26.0273 22.684 29.996 26.6543 34.8756 26.6543H44.0336V22.8228H35.3426C32.5776 22.8228 30.3274 20.5725 30.3274 17.8076C30.3274 15.0426 32.5776 12.7924 35.3426 12.7924H44.0336V8.95776H34.8756C29.9976 8.95776 26.0273 12.9265 26.0273 17.806Z" fill="currentColor"/>
+    <path d="M63.4443 8.95784H51.0234V12.7894H62.9773C64.1563 12.7894 65.1165 13.7496 65.1165 14.9286C65.1165 16.1076 64.1563 17.0678 62.9773 17.0678H51.0234V26.6574H55.3235V20.8994H63.566C64.4199 20.8994 65.115 21.5945 65.115 22.4483V26.6574H69.415V22.4483C69.415 21.0412 68.871 19.7588 67.9848 18.7987C68.8756 17.7552 69.415 16.4036 69.415 14.9271C69.415 11.635 66.7364 8.9563 63.4443 8.9563V8.95784Z" fill="currentColor"/>
+    <path d="M85.9456 8.10278H85.027C79.6743 8.10278 75.3203 12.4568 75.3203 17.8095C75.3203 23.1622 79.6759 27.5132 85.027 27.5162H85.9441C91.2968 27.5162 95.6508 23.1622 95.6508 17.8095C95.6508 12.4568 91.2983 8.10278 85.9456 8.10278ZM85.4863 23.7525C82.2097 23.7525 79.5433 21.0862 79.5433 17.8095C79.5433 14.5328 82.2097 11.8665 85.4863 11.8665C88.763 11.8665 91.4293 14.5328 91.4293 17.8095C91.4293 21.0862 88.763 23.7525 85.4863 23.7525Z" fill="currentColor"/>
+</svg>
+
+            </span>
+        </div>
+    </div>
+
+			</a>
+			<button class="flex gap-x-6 items-center" menu-toggle>
+				<span class="w-20 block group-[&.open]:hidden text-right text-dark group-[&.open]:text-black group-[&.scrolling]:text-black">Meny</span>
+				<span class="w-20 hidden group-[&.open]:block text-right text-dark group-[&.open]:text-black group-[&.scrolling]:text-black">Lukk</span>
+				<div class="relative w-8 h-8 tablet:w-10 tablet:h-10 group-[&.open]:rotate-45 transition-all">
+					<div class="absolute h-full w-[2px] bg-dark group-[&.open]:bg-black group-[&.scrolling]:bg-black left-1/2 -translate-x-1/2"></div>
+					<div class="absolute w-full h-[2px] bg-dark group-[&.open]:bg-black group-[&.scrolling]:bg-black top-1/2 -translate-y-1/2"></div>
+				</div>
+			</button>
+		</div>
+  	</div>
+	<div class="w-screen fixed bg-yellow top-0 left-0 pointer-events-none h-0 group-[&.open]:h-full group-[&.open]:pointer-events-auto transition-all duration-300 ease-in-out overflow-y-hidden overflow-x-hidden z-40" megamenu>
+		<div class="w-screen bg-grey-light pt-[82px] tablet:pt-[88px] opacity-0 -mt-20 group-[&.open]:opacity-100 group-[&.open]:mt-0 transition-all duration-500" megamenu-inner>
+			<nav class="grid-container pt-20 tablet:pt-16 laptop:pt-20 tablet:gap-y-14">
+																					<ul class="col-span-6 tablet:col-span-3 laptop:col-span-2 flex flex-col gap-y-1 laptop:col-start-2">
+						<li class="w-full tablet:w-fit menu-accordion group/menu-accordion [&.active]:mb-5">
+							<div class="w-full flex justify-between">
+																<a href="https://acron.no/hva-vi-leverer"  class="text-2xl tablet:text-xl laptop:text-base desktop:text-xl tablet:font-bold mb-2 tablet:mb-5 text-dark hover:text-grey-mid transition-all">Hva vi leverer</a>
+								
+																	<div class="relative w-6 h-6 transition-all tablet:hidden accordion-toggle">
+										<div class="absolute h-full w-[2px] bg-black left-1/2 -translate-x-1/2 group-[&.active]/menu-accordion:hidden pointer-events-none"></div>
+										<div class="absolute w-full h-[2px] bg-black top-1/2 -translate-y-1/2 pointer-events-none"></div>
+									</div>
+															</div>
+															<ul class="panel max-h-0 tablet:max-h-none overflow-hidden transition-all ease-in-out duration-200">
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/hva-vi-leverer/energirådgivning"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Energirådgivning</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/hva-vi-leverer/energiomstilling"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Energiomstilling fra A til Å</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/hva-vi-leverer/finansieringsmodell"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Finansieringsmodell</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/hva-vi-leverer/acron-energy-system"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Acron Energy System™</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/hva-vi-leverer/solar"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Acron Solar™</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/hva-vi-leverer/fordelene"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Fordelene</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/energigrepene/"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Energigrepene</a>
+										</li>
+												
+								</ul>
+													</li>
+					</ul>
+									<ul class="col-span-6 tablet:col-span-3 laptop:col-span-2 flex flex-col gap-y-1 ">
+						<li class="w-full tablet:w-fit menu-accordion group/menu-accordion [&.active]:mb-5">
+							<div class="w-full flex justify-between">
+																<a href="https://acron.no/bransjer"  class="text-2xl tablet:text-xl laptop:text-base desktop:text-xl tablet:font-bold mb-2 tablet:mb-5 text-dark hover:text-grey-mid transition-all">Bransjer</a>
+								
+																	<div class="relative w-6 h-6 transition-all tablet:hidden accordion-toggle">
+										<div class="absolute h-full w-[2px] bg-black left-1/2 -translate-x-1/2 group-[&.active]/menu-accordion:hidden pointer-events-none"></div>
+										<div class="absolute w-full h-[2px] bg-black top-1/2 -translate-y-1/2 pointer-events-none"></div>
+									</div>
+															</div>
+															<ul class="panel max-h-0 tablet:max-h-none overflow-hidden transition-all ease-in-out duration-200">
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/bransjer/næringsbygg"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Næringsbygg</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/bransjer/offentlig-sektor"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Offentlig sektor</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/bransjer/samferdsel"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Samferdsel</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/bransjer/maritimt"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Maritimt</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/bransjer/industri"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Industri</a>
+										</li>
+												
+								</ul>
+													</li>
+					</ul>
+									<ul class="col-span-6 tablet:col-span-3 laptop:col-span-2 flex flex-col gap-y-1 ">
+						<li class="w-full tablet:w-fit menu-accordion group/menu-accordion [&.active]:mb-5">
+							<div class="w-full flex justify-between">
+																<a href="https://acron.no/partnere"  class="text-2xl tablet:text-xl laptop:text-base desktop:text-xl tablet:font-bold mb-2 tablet:mb-5 text-dark hover:text-grey-mid transition-all">Partnere</a>
+								
+																	<div class="relative w-6 h-6 transition-all tablet:hidden accordion-toggle">
+										<div class="absolute h-full w-[2px] bg-black left-1/2 -translate-x-1/2 group-[&.active]/menu-accordion:hidden pointer-events-none"></div>
+										<div class="absolute w-full h-[2px] bg-black top-1/2 -translate-y-1/2 pointer-events-none"></div>
+									</div>
+															</div>
+															<ul class="panel max-h-0 tablet:max-h-none overflow-hidden transition-all ease-in-out duration-200">
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/partnere/partnermodellen"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Partnermodellen</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/partnere/partnerportal"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Partnerportal</a>
+										</li>
+												
+								</ul>
+													</li>
+					</ul>
+									<ul class="col-span-6 tablet:col-span-3 laptop:col-span-2 flex flex-col gap-y-1 ">
+						<li class="w-full tablet:w-fit menu-accordion group/menu-accordion [&.active]:mb-5">
+							<div class="w-full flex justify-between">
+																<a href="https://acron.no/aktuelt"  class="text-2xl tablet:text-xl laptop:text-base desktop:text-xl tablet:font-bold mb-2 tablet:mb-5 text-dark hover:text-grey-mid transition-all">Aktuelt</a>
+								
+																	<div class="relative w-6 h-6 transition-all tablet:hidden accordion-toggle">
+										<div class="absolute h-full w-[2px] bg-black left-1/2 -translate-x-1/2 group-[&.active]/menu-accordion:hidden pointer-events-none"></div>
+										<div class="absolute w-full h-[2px] bg-black top-1/2 -translate-y-1/2 pointer-events-none"></div>
+									</div>
+															</div>
+															<ul class="panel max-h-0 tablet:max-h-none overflow-hidden transition-all ease-in-out duration-200">
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/aktuelt/nyheter"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Nyheter</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/aktuelt/fagartikler"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Fagartikler</a>
+										</li>
+												
+								</ul>
+													</li>
+					</ul>
+									<ul class="col-span-6 tablet:col-span-3 laptop:col-span-2 flex flex-col gap-y-1 ">
+						<li class="w-full tablet:w-fit menu-accordion group/menu-accordion [&.active]:mb-5">
+							<div class="w-full flex justify-between">
+																<a href="https://acron.no/om-acron"  class="text-2xl tablet:text-xl laptop:text-base desktop:text-xl tablet:font-bold mb-2 tablet:mb-5 text-dark hover:text-grey-mid transition-all">Om Acron</a>
+								
+																	<div class="relative w-6 h-6 transition-all tablet:hidden accordion-toggle">
+										<div class="absolute h-full w-[2px] bg-black left-1/2 -translate-x-1/2 group-[&.active]/menu-accordion:hidden pointer-events-none"></div>
+										<div class="absolute w-full h-[2px] bg-black top-1/2 -translate-y-1/2 pointer-events-none"></div>
+									</div>
+															</div>
+															<ul class="panel max-h-0 tablet:max-h-none overflow-hidden transition-all ease-in-out duration-200">
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/om-acron/selskapet"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Selskapet</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/om-acron/ansatte"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Ansatte</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/om-acron/kontakt"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Kontakt</a>
+										</li>
+																			<li class="border-b border-dark tablet:border-none py-[10px] tablet:py-0">
+																						<a href="https://acron.no/om-acron/gratis-energianalyse"  class="text-base desktop:text-xl text-dark hover:text-grey-mid transition-all">Vederlagsfri energianalyse</a>
+										</li>
+												
+								</ul>
+													</li>
+					</ul>
+				
+							</nav>
+		</div>
+		<div class="grid-container mt-12 pb-24">
+			<div class="col-span-6 laptop:col-span-4 relative">
+				<form action="https://acron.no/sok" method="GET" main-header-search>
+					<input type="text" name="s" placeholder="Søk her" required class="w-full pr-12 bg-transparent text-base tablet:text-2xl placeholder:text-dark border-b border-dark pb-2 tablet:pb-5 outline-none appearance-none rounded-none" />
+					<svg class="text-dark absolute w-5 tablet:w-[30px] h-5 tablet:h-[30px] right-0 top-1 cursor-pointer" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9.0625 15.7322C12.6869 15.7322 15.625 12.794 15.625 9.16968C15.625 5.54531 12.6869 2.60718 9.0625 2.60718C5.43813 2.60718 2.5 5.54531 2.5 9.16968C2.5 12.794 5.43813 15.7322 9.0625 15.7322Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M13.7031 13.8103L17.5 17.6072" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+				</form>
+			</div>
+
+							<div class="col-span-6 tablet:col-span-5 laptop:col-span-4 tablet:col-start-8 laptop:col-start-9 relative flex flex-col gap-y-3 mt-10 tablet:mt-0">
+
+																	    
+	<a 
+         
+         href="https://acron.no/om-acron/kontakt"  
+         target="_self"  
+         
+        role="button" 
+        class="overflow-hidden group/button transition-all ease-in-out duration-300 relative flex items-center border 
+                px-6 py-5 border-grey-light 
+                rounded-full border-grey-mid">
+        <div class="leading-tight relative z-20 group-hover/button:text-yellow transition-all">
+            Kontakt oss
+        </div>
+        <div class="arrow flex items-center ml-auto relative z-20">
+            <div class="w-[51px] lg:w-[101px] h-4 transition-all ease-in-out duration-300 relative overflow-x-hidden">
+                <svg class="hidden lg:block absolute right-0 group-hover/button:text-yellow" width="41" height="16" viewBox="0 0 41 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40.7071 8.70711C41.0976 8.31659 41.0976 7.68342 40.7071 7.2929L34.3431 0.928935C33.9526 0.538411 33.3195 0.538411 32.9289 0.928935C32.5384 1.31946 32.5384 1.95262 32.9289 2.34315L38.5858 8L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM-8.74228e-08 9L40 9L40 7L8.74228e-08 7L-8.74228e-08 9Z" fill="currentColor"/>
+</svg>
+                <svg class="lg:hidden absolute right-0 group-hover/button:text-yellow" width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M24.7071 8.7071C25.0976 8.31658 25.0976 7.68342 24.7071 7.29289L18.3431 0.928931C17.9526 0.538406 17.3195 0.538406 16.9289 0.928931C16.5384 1.31946 16.5384 1.95262 16.9289 2.34314L22.5858 8L16.9289 13.6569C16.5384 14.0474 16.5384 14.6805 16.9289 15.0711C17.3195 15.4616 17.9526 15.4616 18.3431 15.0711L24.7071 8.7071ZM8.74228e-08 9L24 9L24 7L-8.74228e-08 7L8.74228e-08 9Z" fill="currentColor"/>
+</svg>
+            </div>
+        </div>
+        <div class="bg-dark absolute top-1 left-1 w-0 group-hover/button:w-[calc(100%-8px)] h-[calc(100%-8px)] rounded-full z-10 transition-all ease-in-out duration-200"></div>
+	</a>
+
+																	    
+	<a 
+         
+         href="https://acron.no/om-acron/gratis-energianalyse"  
+         target="_self"  
+         
+        role="button" 
+        class="overflow-hidden group/button transition-all ease-in-out duration-300 relative flex items-center border 
+                px-6 py-5 border-grey-light 
+                rounded-full border-grey-mid">
+        <div class="leading-tight relative z-20 group-hover/button:text-yellow transition-all">
+            Bestill vederlagsfri energianalyse
+        </div>
+        <div class="arrow flex items-center ml-auto relative z-20">
+            <div class="w-[51px] lg:w-[101px] h-4 transition-all ease-in-out duration-300 relative overflow-x-hidden">
+                <svg class="hidden lg:block absolute right-0 group-hover/button:text-yellow" width="41" height="16" viewBox="0 0 41 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40.7071 8.70711C41.0976 8.31659 41.0976 7.68342 40.7071 7.2929L34.3431 0.928935C33.9526 0.538411 33.3195 0.538411 32.9289 0.928935C32.5384 1.31946 32.5384 1.95262 32.9289 2.34315L38.5858 8L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM-8.74228e-08 9L40 9L40 7L8.74228e-08 7L-8.74228e-08 9Z" fill="currentColor"/>
+</svg>
+                <svg class="lg:hidden absolute right-0 group-hover/button:text-yellow" width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M24.7071 8.7071C25.0976 8.31658 25.0976 7.68342 24.7071 7.29289L18.3431 0.928931C17.9526 0.538406 17.3195 0.538406 16.9289 0.928931C16.5384 1.31946 16.5384 1.95262 16.9289 2.34314L22.5858 8L16.9289 13.6569C16.5384 14.0474 16.5384 14.6805 16.9289 15.0711C17.3195 15.4616 17.9526 15.4616 18.3431 15.0711L24.7071 8.7071ZM8.74228e-08 9L24 9L24 7L-8.74228e-08 7L8.74228e-08 9Z" fill="currentColor"/>
+</svg>
+            </div>
+        </div>
+        <div class="bg-dark absolute top-1 left-1 w-0 group-hover/button:w-[calc(100%-8px)] h-[calc(100%-8px)] rounded-full z-10 transition-all ease-in-out duration-200"></div>
+	</a>
+
+					
+				</div>
+					</div>
+	</div>
+</header>
+
+                
+                
+        
+			<div class="wrap pt-[148px] pb-8">
+			<nav aria-label="Breadcrumb" class="flex text-base gap-x-2">
+				
+									<a href="https://acron.no/partnere" class="hover:underline">
+						Partnere
+					</a>
+					<span>→</span>
+				
+				<span>Partnerportal</span>
+			</nav>
+		</div>
+	
+	
+		
+			<section class="bg-[#f2f5f6] text-dark pt-6 tablet:pt-10 pb-20">
+				<div class="grid-container">
+					<div class="col-span-6 tablet:col-span-6">
+						<h1 class="lineSplit text-4xl laptop:text-[60px] desktop:text-[80px] !leading-none prose-p:pt-2 prose-p:pb-1 prose-p:-mt-2 prose-p:text-dark" data-animation-delay="0" data-text="Velkommen til Acron Partnerportal 
+– din nøkkel til suksess">
+							Velkommen til Acron Partnerportal 
+– din nøkkel til suksess
+						</h1>
+					</div>
+					<div class="col-span-6 tablet:col-span-6 laptop:col-span-4 laptop:col-start-9 mt-6 tablet:mt-0">
+						<div class="[&_p]:text-dark lineSplit" data-animation-delay="2" data-text="<p>Hos Acron verdsetter vi våre partnere høyt og forstår viktigheten av å tilby verktøy og ressurser som fremmer deres suksess. Vår dedikerte partnerportal er utviklet med tanke på dine behov, og tilbyr en sentral plattform hvor du kan administrere prosjekter, kunder, presentasjoner og avtaler på en effektiv måte.</p>">
+							<p>Hos Acron verdsetter vi våre partnere høyt og forstår viktigheten av å tilby verktøy og ressurser som fremmer deres suksess. Vår dedikerte partnerportal er utviklet med tanke på dine behov, og tilbyr en sentral plattform hvor du kan administrere prosjekter, kunder, presentasjoner og avtaler på en effektiv måte.</p>
+						</div>
+					</div>
+											<div class="col-span-6 tablet:col-span-12 mt-6 tablet:mt-14">
+																															    
+    <div slide-up data-animation-delay=3 class="duration-500 w-full h-full">
+        <div class="opacity-0 translate-y-10 transition-all duration-500 ease-in-out">
+            
+        
+    
+            
+    
+        
+        
+            <picture
+                                            >
+                                                                                        <source media="max-width: 480px" srcset="https://acron.no//uploads/Bilder/_textAndMediaSmall/1118/hero-partnerportal.webp" width="600" height="500">
+                                                                                                <source media="max-width: 992px" srcset="https://acron.no//uploads/Bilder/_hero/1118/hero-partnerportal.webp" width="1920" height="1080">
+                                                                            <img 
+                    src="https://acron.no//uploads/Bilder/_hero/1118/hero-partnerportal.webp"
+                    class="w-full h-full aspect-[365/265] tablet:aspect-[790/410] laptop:aspect-[1200/620] desktop:max-h-[700px] object-cover object-top"
+                    width="1920"
+                    height="1080"
+                     alt="En smilende kvinne med ørepropper sitter foran laptoppen sin og smiler ut i rommet. Foto."                                    >
+            </picture>
+
+                
+    
+
+        </div>
+    </div>
+
+							
+													</div>
+
+															</div>
+			
+			</section>
+
+		
+	
+		
+
+	    
+
+<section id="module-1" class="bg-[#f2f5f6] text-dark module-">
+
+    
+	<section class="pb-20 pt-6 tablet:pt-32 tablet:pb-32">
+
+		            
+
+        
+		<div class="grid-container">
+			<div class="col-span-6 tablet:col-span-11">
+				
+														<div class="flex flex-col gap-y-10">
+																											<div class="lineSplit w-full inline !max-w-full	leading-[110%] text-dark prose-p:text-dark m-0 w-full text-[32px] laptop:text-5xl laptop:leading-[110%] desktop:text-[64px] desktop:leading-[110%]" data-text="Acron støtter partnerne sine med en dedikert portal for enkel prosjekt-, kunde- og avtalehåndtering – alt på én plattform.">
+									Acron støtter partnerne sine med en dedikert portal for enkel prosjekt-, kunde- og avtalehåndtering – alt på én plattform.
+								</div>
+																																					</div>
+							</div>
+		</div>
+
+	</section>
+
+    
+</section>    
+
+<section id="module-2" class="bg-[#ffffff] text-dark module-">
+
+    
+	<section class="pb-20 pt-6 tablet:pt-32 tablet:pb-32">
+
+		            
+
+        
+		<div class="grid-container">
+
+						<div class="col-span-6 laptop:col-span-5 order-2 flex flex-col justify-center tablet:order-1 ">
+								
+									<h2 class="text-[32px] laptop:text-5xl desktop:text-[64px] !leading-[110%]">
+						<div class="lineSplit" data-delay="1" data-text="Hva du kan forvente av Acron Partnerportal:">
+							Hva du kan forvente av Acron Partnerportal:
+						</div>
+					</h2>
+								<div class="mt-6 tablet:mt-12 prose-p:text-base desktop:prose-p:text-xl 
+					prose-ul:list-disc
+					prose-ul:my-4
+					prose-ol:my-4
+					prose-ol:list-decimal
+					prose-li:text-base prose-li:ml-6">
+					    
+    <div content-reveal data-animation-delay=5 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out ">
+                <p><strong>Fullstendig prosjektoversikt</strong>: Hold deg oppdatert med sanntidsinformasjon om alle dine pågående og kommende prosjekter.<br /> </p><p><strong>Kundeadministrasjon</strong>: Enkelt tilgang til kundedetaljer, historikk og kommunikasjon for å styrke relasjonene.</p><p><br /><strong>Ressursbibliotek</strong>: Last ned oppdaterte presentasjoner, markedsføringsmateriell og teknisk dokumentasjon når du trenger det.</p><p><br /><strong>Avtalestyring</strong>: Oversikt over dine avtaler med Acron og kunder, inkludert viktige milepæler og fornyelsesdatoer.</p>
+            </span>
+        </div>
+    </div>
+
+				</div>
+
+								
+			</div>
+
+					
+							<div class="col-span-6 mb-6 tablet:mb-0 order-1 tablet:order-2 laptop:col-start-7 ">
+															    
+    <div slide-up data-animation-delay=3 class="duration-500 w-full h-full">
+        <div class="opacity-0 translate-y-10 transition-all duration-500 ease-in-out">
+            
+        
+    
+            
+    
+        
+        
+            <picture
+                                            >
+                                                                                        <source media="max-width: 480px" srcset="https://acron.no//uploads/Bilder/_textAndMediaSmall/1120/partnerportal-1.webp" width="600" height="500">
+                                                                                                <source media="max-width: 992px" srcset="https://acron.no//uploads/Bilder/_textAndMedia/1120/partnerportal-1.webp" width="1200" height="1000">
+                                                                            <img 
+                    src="https://acron.no//uploads/Bilder/_textAndMedia/1120/partnerportal-1.webp"
+                    class=""
+                    width="1200"
+                    height="1000"
+                     alt="Nærbilde av baksiden av en laptop, med hender som hviler over tastaturet. Over tastaturet vises små vinduer med dashbordgrafikk og søylediagrammer. Foto og illustrasjon."                                    >
+            </picture>
+
+                
+    
+
+        </div>
+    </div>
+
+				</div>
+			
+		</div>
+
+	</section>
+
+    
+</section>    
+
+<section id="module-3" class="bg-[#f2f5f6] text-dark module-">
+
+    
+	<section class="pb-20 pt-6 tablet:pt-32 tablet:pb-32">
+
+		            
+
+        
+		<div class="grid-container">
+
+						<div class="col-span-6 laptop:col-span-5 order-2 flex flex-col justify-center tablet:order-2 laptop:col-start-8 ">
+								
+									<h2 class="text-[32px] laptop:text-5xl desktop:text-[64px] !leading-[110%]">
+						<div class="lineSplit" data-delay="1" data-text="Vi er opptatt av å sikre at våre partnere føler seg ivaretatt og støttet. Derfor tilbyr vi:">
+							Vi er opptatt av å sikre at våre partnere føler seg ivaretatt og støttet. Derfor tilbyr vi:
+						</div>
+					</h2>
+								<div class="mt-6 tablet:mt-12 prose-p:text-base desktop:prose-p:text-xl 
+					prose-ul:list-disc
+					prose-ul:my-4
+					prose-ol:my-4
+					prose-ol:list-decimal
+					prose-li:text-base prose-li:ml-6">
+					    
+    <div content-reveal data-animation-delay=5 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out ">
+                <p><strong>Brukervennlig grensesnitt:</strong> En intuitiv plattform som gjør det enkelt å navigere og finne nødvendig informasjon.</p><p><br /><strong>Sikkerhet i toppklasse:</strong> Dine data er beskyttet med avanserte sikkerhetstiltak, slik at du kan jobbe trygt og med full tillit.<br /> </p><p><strong>Supportteam:</strong> Vårt dedikerte supportteam står klart til å hjelpe deg med eventuelle spørsmål eller utfordringer du måtte møte.<br /> </p><p><strong>Ressursbibliotek</strong>: Få tilgang til et omfattende utvalg av oppdaterte presentasjoner, markedsføringsmateriell og teknisk dokumentasjon, tilgjengelig når du trenger det.</p>
+            </span>
+        </div>
+    </div>
+
+				</div>
+
+								
+			</div>
+
+					
+							<div class="col-span-6 mb-6 tablet:mb-0 order-1 tablet:order-1 ">
+															    
+    <div slide-up data-animation-delay=3 class="duration-500 w-full h-full">
+        <div class="opacity-0 translate-y-10 transition-all duration-500 ease-in-out">
+            
+        
+    
+            
+    
+        
+        
+            <picture
+                                            >
+                                                                                        <source media="max-width: 480px" srcset="https://acron.no//uploads/Bilder/_textAndMediaSmall/258/AES_1.webp" width="600" height="500">
+                                                                                                <source media="max-width: 992px" srcset="https://acron.no//uploads/Bilder/_textAndMedia/258/AES_1.webp" width="1200" height="1000">
+                                                                            <img 
+                    src="https://acron.no//uploads/Bilder/_textAndMedia/258/AES_1.webp"
+                    class=""
+                    width="1200"
+                    height="1000"
+                     alt="Åpen laptop med et dashbord som viser søylediagrammer, samt teksten &#039;Acron&#039; og &#039;Energy&#039; på skjermen/ dashboard. Bilde."                                    >
+            </picture>
+
+                
+    
+
+        </div>
+    </div>
+
+				</div>
+			
+		</div>
+
+	</section>
+
+    
+</section>    
+
+<section id="module-4" class="bg-white text-dark module-">
+
+    
+  <section id="" class="w-full bg-grey pb-20 tablet:pb-32">
+
+			
+
+        <div class="grid-container pt-6 tablet:pt-10">
+                    <div class="col-span-6 tablet:col-span-7 mb-10 tablet:mb-20 font-bold">
+                                                            
+                                            
+    <h1 class="[&_p]:text-dark text-d2-xl mb-4" >
+
+					    
+    <div content-reveal data-animation-delay=0 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out ">
+                Kontakt oss
+            </span>
+        </div>
+    </div>
+
+                 </h1> 
+            </div>
+                    </div>
+    
+	<div class="grid-container ">
+
+		<div class="col-span-6 laptop:col-span-5">
+			<div class="flex flex-col gap-y-12">
+				<h3 class="lineSplit text-[32px] laptop:text-5xl desktop:text-[64px] !leading-none prose prose-p:py-1 prose-p:m-0 prose-p:-mt-2" data-text="Ønsker du å bli Acron-partner? Ta kontakt for en uforpliktende samtale.">
+					Ønsker du å bli Acron-partner? Ta kontakt for en uforpliktende samtale.
+				</h3>
+				<div class="w-full flex flex-col gap-y-10">
+											<div class="grid grid-cols-1 tablet:grid-cols-6 gap-x-6">
+							<div class="col-span-6 tablet:col-span-3">
+								<span class="block font-bold">    
+    <div content-reveal data-animation-delay=1 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out pb-1">
+                Thomas Holm
+            </span>
+        </div>
+    </div>
+</span>
+								<span class="block">    
+    <div content-reveal data-animation-delay=2 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Salgssjef
+            </span>
+        </div>
+    </div>
+</span>
+							</div>
+							<div class="col-span-6 tablet:col-span-3">
+								<a href="tel:+47 921 50 180" class="text-xl laptop:text-2xl">    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out pb-0">
+                +47 921 50 180
+            </span>
+        </div>
+    </div>
+</a>
+								<a href="mailto:thomas.holm@acron.no" class="underline">    
+    <div content-reveal data-animation-delay=4 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                thomas.holm@acron.no
+            </span>
+        </div>
+    </div>
+</a>
+							</div>
+						</div>
+											<div class="grid grid-cols-1 tablet:grid-cols-6 gap-x-6">
+							<div class="col-span-6 tablet:col-span-3">
+								<span class="block font-bold">    
+    <div content-reveal data-animation-delay=2 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out pb-1">
+                Lena Gravdal
+            </span>
+        </div>
+    </div>
+</span>
+								<span class="block">    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Salg- og partneransvarlig - Vest
+            </span>
+        </div>
+    </div>
+</span>
+							</div>
+							<div class="col-span-6 tablet:col-span-3">
+								<a href="tel:+47 466 98 667" class="text-xl laptop:text-2xl">    
+    <div content-reveal data-animation-delay=4 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out pb-0">
+                +47 466 98 667
+            </span>
+        </div>
+    </div>
+</a>
+								<a href="mailto:lena.gravdal@acron.no" class="underline">    
+    <div content-reveal data-animation-delay=5 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                lena.gravdal@acron.no
+            </span>
+        </div>
+    </div>
+</a>
+							</div>
+						</div>
+											<div class="grid grid-cols-1 tablet:grid-cols-6 gap-x-6">
+							<div class="col-span-6 tablet:col-span-3">
+								<span class="block font-bold">    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out pb-1">
+                Trude Rød
+            </span>
+        </div>
+    </div>
+</span>
+								<span class="block">    
+    <div content-reveal data-animation-delay=4 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Salg- og partneransvarlig - Øst
+            </span>
+        </div>
+    </div>
+</span>
+							</div>
+							<div class="col-span-6 tablet:col-span-3">
+								<a href="tel:+47 900 29 460" class="text-xl laptop:text-2xl">    
+    <div content-reveal data-animation-delay=5 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out pb-0">
+                +47 900 29 460
+            </span>
+        </div>
+    </div>
+</a>
+								<a href="mailto:trude.rod@acron.no" class="underline">    
+    <div content-reveal data-animation-delay=6 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                trude.rod@acron.no
+            </span>
+        </div>
+    </div>
+</a>
+							</div>
+						</div>
+									</div>
+			</div>
+		</div>
+
+		<form action="POST" class="col-span-6 tablet:col-span-4 tablet:col-start-8 mt-10 tablet:mt-0" aria-labelledby="contact-form-title" footerForm>
+			<input type="hidden" name="_PRODUCTION_CSRF_TOKEN" value="ynIMPCtnGqqJiUGAPuwd4egE_z_eSz_AoB29Ihmdd5QompyTVN97io8TQnBOFkWT4rl05mudc8yKYZN9nCVYhNd_7FJbywHkR7fMvh-xC9s=">
+            <input type="hidden" name="action" value="contact/contact/send">
+
+			<input type="hidden" name="form" value="2530">
+
+			<fieldset class="flex flex-col gap-y-4 w-full">
+
+				
+				
+																																			
+					<div class="w-full [&>*]:rounded-[32px] [&>*]:px-6 [&>*]:py-3 [&>*]:placeholder:text-dark">
+
+														<input type="text" 
+									class="w-full focus:outline-dark border border-transparent [&amp;.error]:border-[#FF0000]" 
+									id="navn" 
+									name="navn" 
+									placeholder="Ditt navn"
+									required>
+
+												</div>
+				
+																																			
+					<div class="w-full [&>*]:rounded-[32px] [&>*]:px-6 [&>*]:py-3 [&>*]:placeholder:text-dark">
+
+														<input type="email" 
+									class="form-control w-full focus:outline-dark border border-transparent [&amp;.error]:border-[#FF0000]" 
+									id="e-post" 
+									name="e-post" 
+									placeholder="E-post"
+									required />
+
+												</div>
+				
+																																			
+					<div class="w-full [&>*]:rounded-[32px] [&>*]:px-6 [&>*]:py-3 [&>*]:placeholder:text-dark">
+
+														<input type="tel" 
+									class="form-control w-full focus:outline-dark border border-transparent [&amp;.error]:border-[#FF0000]" 
+									id="telefon" 
+									name="telefon" 
+									placeholder="Telefon"
+									required />
+
+												</div>
+				
+																																			
+					<div class="w-full [&>*]:rounded-[32px] [&>*]:px-6 [&>*]:py-3 [&>*]:placeholder:text-dark">
+
+														<input type="text" 
+									class="w-full focus:outline-dark border border-transparent [&amp;.error]:border-[#FF0000]" 
+									id="selskap" 
+									name="selskap" 
+									placeholder="Selskap"
+									required>
+
+												</div>
+				
+																																			
+					<div class="w-full [&>*]:rounded-[32px] [&>*]:px-6 [&>*]:py-3 [&>*]:placeholder:text-dark">
+
+														<input type="text" 
+									class="w-full focus:outline-dark border border-transparent [&amp;.error]:border-[#FF0000]" 
+									id="adresse" 
+									name="adresse" 
+									placeholder="Adresse"
+									required>
+
+												</div>
+				
+																																			
+					<div class="w-full [&>*]:rounded-[32px] [&>*]:px-6 [&>*]:py-3 [&>*]:placeholder:text-dark">
+
+														<input type="text" 
+									class="w-full focus:outline-dark border border-transparent [&amp;.error]:border-[#FF0000]" 
+									id="post-nr" 
+									name="post-nr" 
+									placeholder="Post nr"
+									required>
+
+												</div>
+				
+																																			
+					<div class="w-full [&>*]:rounded-[32px] [&>*]:px-6 [&>*]:py-3 [&>*]:placeholder:text-dark">
+
+														<textarea class="form-control w-full focus:outline-dark border border-transparent [&amp;.error]:border-[#FF0000] resize-none !pt-5" 
+									id="melding" 
+									name="melding"
+									placeholder="Din melding"
+									 
+									rows="5"></textarea>
+
+												</div>
+							</fieldset>
+
+			    
+	<a 
+         
+         
+         target="_self"  
+         aria-label="Submit contact form"  
+        role="button" 
+        class="overflow-hidden group/button transition-all ease-in-out duration-300 relative flex items-center border 
+                px-6 py-5 border-grey-light 
+                mt-8 rounded-[32px] border-grey-mid w-3/4">
+        <div class="leading-tight relative z-20 group-hover/button:text-dark transition-all">
+            Send inn
+        </div>
+        <div class="arrow flex items-center ml-auto relative z-20">
+            <div class="w-[51px] lg:w-[101px] h-4 transition-all ease-in-out duration-300 relative overflow-x-hidden">
+                <svg class="hidden lg:block absolute right-0 group-hover/button:text-dark" width="41" height="16" viewBox="0 0 41 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40.7071 8.70711C41.0976 8.31659 41.0976 7.68342 40.7071 7.2929L34.3431 0.928935C33.9526 0.538411 33.3195 0.538411 32.9289 0.928935C32.5384 1.31946 32.5384 1.95262 32.9289 2.34315L38.5858 8L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM-8.74228e-08 9L40 9L40 7L8.74228e-08 7L-8.74228e-08 9Z" fill="currentColor"/>
+</svg>
+                <svg class="lg:hidden absolute right-0 group-hover/button:text-dark" width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M24.7071 8.7071C25.0976 8.31658 25.0976 7.68342 24.7071 7.29289L18.3431 0.928931C17.9526 0.538406 17.3195 0.538406 16.9289 0.928931C16.5384 1.31946 16.5384 1.95262 16.9289 2.34314L22.5858 8L16.9289 13.6569C16.5384 14.0474 16.5384 14.6805 16.9289 15.0711C17.3195 15.4616 17.9526 15.4616 18.3431 15.0711L24.7071 8.7071ZM8.74228e-08 9L24 9L24 7L-8.74228e-08 7L8.74228e-08 9Z" fill="currentColor"/>
+</svg>
+            </div>
+        </div>
+        <div class="bg-yellow absolute top-1 left-1 w-0 group-hover/button:w-[calc(100%-8px)] h-[calc(100%-8px)] rounded-full z-10 transition-all ease-in-out duration-200"></div>
+	</a>
+
+
+			<div id="form-success" class="mt-4 px-2 hidden">
+				<p>Takk for at din interesse i Acron Solar™ – du hører fra oss veldig snart!</p>
+			</div>
+
+			<div id="form-sending" class="mt-4 px-2 hidden">
+				<p>Sender e-post...</p>
+			</div>
+
+			<div id="form-error-validate" class="mt-4 px-2 hidden">
+				<p class="text-red">Fyll ut obligatoriske felt.</p>
+			</div>
+
+			<div id="form-error-sending" class="mt-4 px-2 hidden">
+				<p class="text-red">Oops! Noe gikk galt. Vennligst prøv igjen.</p>
+			</div>
+		</form>
+
+	  </div>
+  </section>
+
+    
+</section>
+
+                    
+
+	
+
+<footer class="w-full bg-dark py-6 tablet:py-10 text-grey-light z-20 relative">
+    <div class="grid-container">
+        <div class="col-span-6 tablet:col-span-12">
+            <a class="flex justify-center" href="#" aria-label="Acron">
+                <svg class="text-grey-light w-[136px]" width="120" height="34" viewBox="0 0 120 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M120.003 31.135H75.5703V33.3729H120.003V31.135Z" fill="currentColor"/>
+    <path d="M0 17.8063C0 22.6843 3.96869 26.6545 8.84826 26.6545H12.3607V22.823H9.31525C6.55027 22.823 4.30006 20.5728 4.30006 17.8078C4.30006 15.0428 6.55027 12.7926 9.31525 12.7926H15.6991V26.6607H19.9991V8.95801H8.84826C3.96869 8.95801 0 12.9282 0 17.8063Z" fill="currentColor"/>
+    <path d="M111.152 8.95801H101.402V26.6591H105.702V12.7911H110.684C113.449 12.7911 115.699 15.0413 115.699 17.8063V26.6591H119.999V17.8063C119.999 12.9282 116.03 8.95801 111.151 8.95801H111.152Z" fill="currentColor"/>
+    <path d="M26.0273 17.806C26.0273 22.684 29.996 26.6543 34.8756 26.6543H44.0336V22.8228H35.3426C32.5776 22.8228 30.3274 20.5725 30.3274 17.8076C30.3274 15.0426 32.5776 12.7924 35.3426 12.7924H44.0336V8.95776H34.8756C29.9976 8.95776 26.0273 12.9265 26.0273 17.806Z" fill="currentColor"/>
+    <path d="M63.4443 8.95784H51.0234V12.7894H62.9773C64.1563 12.7894 65.1165 13.7496 65.1165 14.9286C65.1165 16.1076 64.1563 17.0678 62.9773 17.0678H51.0234V26.6574H55.3235V20.8994H63.566C64.4199 20.8994 65.115 21.5945 65.115 22.4483V26.6574H69.415V22.4483C69.415 21.0412 68.871 19.7588 67.9848 18.7987C68.8756 17.7552 69.415 16.4036 69.415 14.9271C69.415 11.635 66.7364 8.9563 63.4443 8.9563V8.95784Z" fill="currentColor"/>
+    <path d="M85.9456 8.10278H85.027C79.6743 8.10278 75.3203 12.4568 75.3203 17.8095C75.3203 23.1622 79.6759 27.5132 85.027 27.5162H85.9441C91.2968 27.5162 95.6508 23.1622 95.6508 17.8095C95.6508 12.4568 91.2983 8.10278 85.9456 8.10278ZM85.4863 23.7525C82.2097 23.7525 79.5433 21.0862 79.5433 17.8095C79.5433 14.5328 82.2097 11.8665 85.4863 11.8665C88.763 11.8665 91.4293 14.5328 91.4293 17.8095C91.4293 21.0862 88.763 23.7525 85.4863 23.7525Z" fill="currentColor"/>
+</svg>
+
+            </a>
+        </div>
+
+        <div class="lineSplit col-span-6 tablet:col-span-9 laptop:col-span-6 mt-12 tablet:mt-20 prose prose-p:text-grey-light prose-p:py-1 prose-p:-mt-2 prose-p:mb-0 prose-p:text-2xl prose-p:laptop:text-5xl prose-p:desktop:text-[64px]" data-text="<p>Acron gjør energiomstilling lønnsom. Mer verdi for deg, eiendom og anlegg, uten risiko og med varig gevinst.</p>">
+            <p>Acron gjør energiomstilling lønnsom. Mer verdi for deg, eiendom og anlegg, uten risiko og med varig gevinst.</p>
+        </div>
+    </div>
+
+    <div class="grid-container mt-12 gap-y-8">
+        <div class="col-span-3 laptop:col-span-2 flex flex-col">
+            <h3 class="lineSplit prose-p:font-bold prose-p:text-grey-mid" data-text="Acron Group AS">
+                Acron Group AS
+            </h3>
+            <address class="lineSplit not-italic prose-p:text-grey-mid" data-text="<p>Andøyfaret 31<br />4623 Kristiansand S</p>">
+                <p>Andøyfaret 31<br />4623 Kristiansand S</p>
+            </address>
+            <span class="text-grey-mid">
+                    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Org. nr: 928689662
+            </span>
+        </div>
+    </div>
+
+            </span>
+            <a href="https://maps.app.goo.gl/KBFte6TYU879ZTq77" class="text-white hover:text-grey-mid transition-all" target="_blank">
+                    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-3">
+                Google Maps
+            </span>
+        </div>
+    </div>
+
+            </a>
+        </div>
+
+        <div class="col-span-3 laptop:col-span-2 flex flex-col">
+                            <a href="mailto:kontakt@acron.no" class="text-grey-light hover:text-grey-mid transition-all">
+                        
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                kontakt@acron.no
+            </span>
+        </div>
+    </div>
+
+                </a>
+                                </div>
+
+        <div class="col-span-3 laptop:col-span-2 flex flex-col">
+            <h3 class="text-grey-mid">    
+    <div content-reveal data-animation-delay=2 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Følg oss på
+            </span>
+        </div>
+    </div>
+</h3>
+            <a href="https://www.linkedin.com/company/acron-group-as/?originalSubdomain=no" target="_blank" class="text-white hover:text-grey-mid transition-all font-bold">    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-3">
+                LinkedIn
+            </span>
+        </div>
+    </div>
+</a>
+                    </div>
+
+        <nav class="col-span-3 laptop:col-span-2 laptop:col-start-11 flex flex-col">
+                                            <a href="https://acron.no/hva-vi-leverer"  class="text-grey-light hover:text-grey-mid transition-all font-bold">
+                        
+    <div content-reveal data-animation-delay=1 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-3">
+                Hva vi leverer
+            </span>
+        </div>
+    </div>
+
+                </a>
+                                            <a href="https://acron.no/bransjer"  class="text-grey-light hover:text-grey-mid transition-all font-bold">
+                        
+    <div content-reveal data-animation-delay=2 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-3">
+                Bransjer
+            </span>
+        </div>
+    </div>
+
+                </a>
+                                            <a href="https://acron.no/partnere"  class="text-grey-light hover:text-grey-mid transition-all font-bold">
+                        
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-3">
+                Partnere
+            </span>
+        </div>
+    </div>
+
+                </a>
+                                            <a href="https://acron.no/om-acron"  class="text-grey-light hover:text-grey-mid transition-all font-bold">
+                        
+    <div content-reveal data-animation-delay=4 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-3">
+                Om Acron
+            </span>
+        </div>
+    </div>
+
+                </a>
+                                            <a href="https://acron.no/om-acron/kontakt"  class="text-grey-light hover:text-grey-mid transition-all font-bold">
+                        
+    <div content-reveal data-animation-delay=5 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-3">
+                Kontakt
+            </span>
+        </div>
+    </div>
+
+                </a>
+                    </nav>
+    </div>
+
+    <div class="wrap mt-12 tablet:mt-20 flex flex-row gap-y-3 tablet:flex-row justify-between items-end">
+        <div class="flex flex-col tablet:flex-row gap-y-2 gap-x-6">
+            <a href="/cookies" class="text-grey-light hover:text-grey-mid">
+                    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Cookie-erklæring
+            </span>
+        </div>
+    </div>
+
+            </a>
+            <a href="/personvernerklaering" class="text-grey-light hover:text-grey-mid">
+                    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Personvernerklæring
+            </span>
+        </div>
+    </div>
+
+            </a>
+            <a href="javascript:cm_displaySettings();" class="text-grey-light hover:text-grey-mid">
+                    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                Administrer cookies
+            </span>
+        </div>
+    </div>
+
+            </a>
+        </div>
+        <small>    
+    <div content-reveal data-animation-delay=3 class="w-full">
+        <div class="transform opacity-0 transition-all duration-500 overflow-hidden">
+            <span class="block translate-y-full transition-transform py-2 duration-500 ease-out -mt-2">
+                © 2025 Acron AS
+            </span>
+        </div>
+    </div>
+</small>
+    </div>
+
+</footer>
+
+
+
+ 
+        
+        <!-- Include Swiper.js Script -->
+        <script src="/assets/js/lenis.min.js"></script> 
+        <script src="/assets/js/swiper-bundle.min.js"></script>
+        <script src="/assets/js/splitting.min.js"></script>
+        
+        <!-- Main JavaScript Bundle -->
+        
+            <script>
+                let swipers = document.querySelectorAll('.swiper');
+                swipers.forEach(swiper => {
+                    let columns = swiper.getAttribute('max-cols');
+                    if(!columns || columns === ""){
+                        columns = 3;
+                    }
+                    let swiperConfig = {
+                        loop: false,
+                        pagination: {
+                            el: swiper.querySelector('.swiper-pagination'),
+                            clickable: true,
+                        },
+                        slidesOffsetBefore: 24,
+                        slidesOffsetAfter: 24,
+                        navigation: {
+                            nextEl: swiper.parentNode.querySelector('.swiper-button-next'),
+                            prevEl: swiper.parentNode.querySelector('.swiper-button-prev'),
+                        },
+                    };
+        
+                    if(swiper.getAttribute('card-list') !== null) {
+                        swiperConfig.slidesPerView = 1;
+                        swiperConfig.spaceBetween = 14*1.5
+                        swiperConfig.breakpoints= {
+                            580: {
+                                slidesPerView: Math.min(2,columns), // Show 2 slides at a time on medium screens
+                                spaceBetween: 16*1.5,
+                            },
+                            1024: {
+                                slidesPerView: columns, // Show 3 slides at a time on larger screens
+                                spaceBetween: 18*1.5,
+                            },
+                            1440: {
+                                slidesPerView: columns, // Show 3 slides at a time on larger screens
+                                spaceBetween: 20*1.5,
+                            },
+                        };
+                    }else if(swiper.getAttribute('people-list') !== null) {
+                        swiperConfig.slidesPerView = 1;
+                        swiperConfig.spaceBetween = 14*1.5
+                        swiperConfig.breakpoints= {
+                            580: {
+                                slidesPerView: Math.min(2,columns), // Show 2 slides at a time on medium screens
+                                spaceBetween: 16*1.5,
+                            },
+                            1024: {
+                                slidesPerView: columns, // Show 3 slides at a time on larger screens
+                                spaceBetween: 18*1.5,
+                            },
+                            1440: {
+                                slidesPerView: columns, // Show 3 slides at a time on larger screens
+                                spaceBetween: 20*1.5,
+                            },
+                        };
+                    }else if(swiper.getAttribute('logo-list') !== null) {
+                        swiperConfig.slidesPerView = swiper.getAttribute('sm');
+                        swiperConfig.spaceBetween = 14*1.5
+                        swiperConfig.breakpoints= {
+                            580: {
+                                slidesPerView: Number(swiper.getAttribute('sm')), // Show 2 slides at a time on medium screens
+                                spaceBetween: 14*1.5,
+                            },
+                            768: {
+                                slidesPerView: Number(swiper.getAttribute('md')), // Show 3 slides at a time on larger screens
+                                spaceBetween: 16*1.5,
+                                slidesOffsetBefore: 0,
+                                slidesOffsetAfter: 0,
+                            },
+                            1024: {
+                                slidesPerView: Number(swiper.getAttribute('lg')), // Show 3 slides at a time on larger screens
+                                spaceBetween: 18*1.5,
+                                slidesOffsetBefore: 0,
+                                slidesOffsetAfter: 0,
+                            },
+                            1440: {
+                                slidesPerView: Number(swiper.getAttribute('xl')), // Show 3 slides at a time on larger screens
+                                spaceBetween: 20*1.5,
+                                slidesOffsetBefore: 0,
+                                slidesOffsetAfter: 0,
+                            },
+                        };
+                    }
+                    new Swiper(swiper, swiperConfig);
+                }); 
+            </script>
+
+        <div>
+                             
+    <div class="cm__blocked cm__active" style="z-index:99999999"></div>
+ 
+<div class="__cookiemng__ black cm__active  cm__rounded " data-google-consent="1" style="z-index:100000000"  data-site-handle="default">
+     <div class="cm__button cm__close" data-cm-action="onClose"></div>
+     <div class="cm__container cm__full cm__active" data-cm-view="default">
+          <div class="cm__content ">
+                <h3>Om informasjonskapsler (Cookies)</h3>
+          </div>
+          <div class="cm__content " style="">
+               Denne nettsiden bruker informasjonskapsler for å sikre viktige funksjoner, som autentisering og beskyttelse mot sikkerhetsrisikoer, samt for å analysere bruken av nettsiden og forbedre brukeropplevelsen. Vi bruker både nødvendige informasjonskapsler for å sikre at nettsiden fungerer som den skal, og statistiske informasjonskapsler for å få innsikt i hvordan innholdet vårt presterer. Fordi vi respekterer personvernet ditt, kan du velge å ikke akseptere visse typer informasjonskapsler. Klikk på de ulike kategorioverskriftene for å finne ut mer og endre standardinnstillingene. Vær oppmerksom på at blokkering av enkelte typer informasjonskapsler kan påvirke opplevelsen av nettsiden.
+                                   <br/><a href="/cookies" aria-label="Les mer in a new window" target="_blank" style="margin-top:0.25rem;color:inherit; text-decoration:underline; font-weight:bold;">Les mer</a>
+                         </div>
+                    <div class="cm__content cm__inline-button">
+                                     <div class="cm__button " data-cm-action="onFunctional" role="button" tabindex="0" aria-label="Avvis alle">Avvis alle</div>
+                     <div class="cm__button cm__outline" data-cm-action="onCustomize" role="button" tabindex="0" aria-label="Tilpass">Tilpass</div>
+                                                <div class="cm__button cm__outline" data-cm-action="onAll" role="button" tabindex="0" aria-label="Godta alle">Godta alle</div>
+          </div>
+     </div>
+               <div class="cm__container cm__full" data-cm-view="customize">
+                <div class="cm__content">
+                     <h3>Om informasjonskapsler (Cookies)</h3>
+                </div>
+                <div class="cm__content" style="text-align:center;">
+                    Denne nettsiden bruker informasjonskapsler for å sikre viktige funksjoner, som autentisering og beskyttelse mot sikkerhetsrisikoer, samt for å analysere bruken av nettsiden og forbedre brukeropplevelsen. Vi bruker både nødvendige informasjonskapsler for å sikre at nettsiden fungerer som den skal, og statistiske informasjonskapsler for å få innsikt i hvordan innholdet vårt presterer. Fordi vi respekterer personvernet ditt, kan du velge å ikke akseptere visse typer informasjonskapsler. Klikk på de ulike kategorioverskriftene for å finne ut mer og endre standardinnstillingene. Vær oppmerksom på at blokkering av enkelte typer informasjonskapsler kan påvirke opplevelsen av nettsiden.
+                                             <br/><a href="/cookies" aria-label="Les mer in a new window" target="_blank" style="margin-top:0.25rem;color:inherit; text-decoration:underline; font-weight:bold;">Les mer</a>
+                                    </div>
+                <div class="cm__content">
+                                               <div class="cm__checkbox">
+                                <div class="cm__accordion">
+                                     <div class="cm__acc-header">
+                                          <input disabled type="checkbox" id="cm_functionalCookies" name="functionalCookies" checked value="functional">
+                                          <label for="cm_functionalCookies">Nødvendige</label>
+                                     </div>
+                                     <div class="cm__button cm__acc-trigger"></div>
+                                     <div class="cm__acc-panel">
+                                          <p>Disse informasjonskapslene er essensielle for at nettsiden skal fungere riktig. De brukes blant annet til å håndtere brukerens sesjon, autentisering og for å beskytte nettstedet mot sikkerhetsrisikoer som CSRF-angrep. Uten disse informasjonskapslene vil viktige funksjoner på nettsiden, som innlogging og beskyttelse mot ondsinnede angrep, ikke fungere som de skal.</p>
+                                     </div>
+                                </div>
+                          </div>
+                                                                    <div class="cm__checkbox">
+                                <div class="cm__accordion">
+                                     <div class="cm__acc-header">
+                                          <input type="checkbox" id="cm_analyticsCookies" name="analyticsCookies"  value="analytics">
+                                          <label for="cm_analyticsCookies">Statistikk</label>
+                                     </div>
+                                     <div class="cm__button cm__acc-trigger"></div>
+                                     <div class="cm__acc-panel">
+                                          <p>Disse informasjonskapslene hjelper oss med å analysere hvordan nettsiden brukes, slik at vi kan forbedre funksjonalitet og brukeropplevelse. De samler inn anonymisert data om besøk og trafikkmønstre, noe som gir oss innsikt i hvordan innholdet vårt presterer og hvordan vi kan optimalisere nettstedet.</p>
+                                     </div>
+                                </div>
+                          </div>
+                                                                               </div>
+                <div class="cm__content cm__inline-button">
+                     <div class="cm__button cm__outline" data-cm-action="onSave">Lagre mitt valg</div>
+                     <div class="cm__button " data-cm-action="onFunctional">Avvis alle</div>
+                     <div class="cm__button cm__outline" data-cm-action="onAll">Godta alle</div>
+                </div>
+          </div>
+     </div>
+                    </div>
+    <script src="/build/js/main.js?v=1763581185"></script>
+<script src="https://acron.no/cpresources/d9801ee4/js/cookiemng.js?v=1763581200"></script>
+<script>const menuAccordion = document.getElementsByClassName('menu-accordion');
+	const header = document.querySelector('[main-header]');
+	const headerSearch = document.querySelector('[main-header-search]');
+	const headerSearchSmall = document.querySelector('[main-header-search-small]');
+	const megaMenu = document.querySelector('[megamenu]');
+	const megaMenuInner = document.querySelector('[megamenu-inner]');
+  	const menuToggle = document.querySelector('[menu-toggle]');
+	let lastScrollTop = 0;
+
+	function updateMegaMenuPadding() {
+		const windowHeight = window.innerHeight;
+		const windowWidth = window.innerWidth;
+
+		if (windowWidth > 1280) {
+			let paddingBottom = Math.max(40, 220 - (800 - windowHeight));
+			if (paddingBottom > 220) paddingBottom = 220;
+			megaMenuInner.style.paddingBottom = `${paddingBottom}px`;
+		} else {
+			megaMenuInner.style.paddingBottom = '40px';
+		}
+	}
+
+	window.addEventListener('load', updateMegaMenuPadding);
+	window.addEventListener('resize', updateMegaMenuPadding);
+
+	menuToggle.addEventListener('click', () => {
+		header.classList.toggle('open');
+		headerSearchSmall.classList.remove('open');
+		header.classList.remove('top');
+
+		if (!header.classList.contains('open') && window.pageYOffset || document.documentElement.scrollTop == 0) {
+			header.classList.add('top');
+		}
+	});
+
+	headerSearchSmall.addEventListener('click', () => {
+		headerSearchSmall.classList.add('open');
+		headerSearchSmall.querySelector('input').focus();
+	});
+
+	megaMenu.addEventListener('click', (e) => {
+		if (e.target.tagName == 'svg' || e.target.tagName == 'INPUT' || e.target.tagName == 'A' || e.target.classList.contains('accordion-toggle') ) return;
+		header.classList.toggle('open');
+	});
+	
+	for (let i = 0; i < menuAccordion.length; i++) {
+		menuAccordion[i].addEventListener("click", function(event) {
+			if (event.target.tagName === "A") return;
+ 			this.classList.toggle("active");
+			
+			let panel = this.querySelector(".panel");
+
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+		});
+	}
+
+	window.addEventListener('scroll', handleScroll);
+
+	function handleScroll() {
+		let st = window.pageYOffset || document.documentElement.scrollTop;
+
+		if (st < lastScrollTop) {
+			header.classList.add('scrolling');
+			if (st < 50) {
+				if (!header.classList.contains('open')) {
+					header.classList.remove('scrolling');
+				}
+			}
+		} else {
+			if (!header.classList.contains('open')) {
+				header.classList.remove('scrolling');
+			}
+		}
+		
+		lastScrollTop = st <= 0 ? 0 : st;
+
+		if (st < 50) {
+			if (!header.classList.contains('open')) {
+				header.classList.remove('scrolling');
+			}
+			header.classList.add('top');
+		} else {
+			header.classList.remove('top');
+		}
+	}
+
+    document.addEventListener("DOMContentLoaded", function () {
+		if (headerSearch) {
+			const svgElement = headerSearch.querySelector("svg");
+			if (svgElement) {
+				svgElement.addEventListener("click", function () {
+					if (headerSearch.checkValidity()) {
+						headerSearch.submit();
+					} else {
+						headerSearch.reportValidity();
+					}
+				});
+			}
+		}
+
+		if (headerSearchSmall) {
+			const svgElement = headerSearchSmall.querySelector("svg");
+			const headerSearchSmallFrom = headerSearchSmall.querySelector("form");
+			if (svgElement) {
+				svgElement.addEventListener("click", function () {
+					if (headerSearchSmallFrom.checkValidity()) {
+						headerSearchSmallFrom.submit();
+					} else {
+						headerSearchSmallFrom.reportValidity();
+					}
+				});
+			}
+		}
+	});
+document.addEventListener("DOMContentLoaded", function () 
+    {
+        const forms = document.querySelectorAll("[footerForm]");
+        
+        forms.forEach(form => {
+            const inputs = form.querySelectorAll("input, textarea");
+            const successMessage = form.querySelector("#form-success");
+            const validateErrorMessage = form.querySelector("#form-error-validate");
+            const errorMessage = form.querySelector("#form-error-sending");
+            const sendingMessage = form.querySelector("#form-sending");
+            const submitButton = form.querySelector("a[role='button']");
+            let successMessageTimeout;
+            
+            function validateInput(input) {
+                if (!input.value.trim()) {
+                    input.classList.add("error");
+                    return false;
+                }
+                if (input.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)) {
+                    input.classList.add("error");
+                    return false;
+                }
+                if (input.type === "tel" && !/^\+?\d{7,15}$/.test(input.value)) {
+                    input.classList.add("error");
+                    return false;
+                }
+                input.classList.remove("error");
+                return true;
+            }
+
+            function disableButton() {
+                submitButton.classList.add("disabled");
+                submitButton.setAttribute("disabled", "disabled");
+                sendingMessage.classList.remove("hidden");
+            }
+            
+            function enableButton() {
+                submitButton.classList.remove("disabled");
+                submitButton.removeAttribute("disabled");
+                sendingMessage.classList.add("hidden");
+            }
+
+            function showSuccessMessage() {
+                if (successMessageTimeout) {
+                    clearTimeout(successMessageTimeout);
+                }
+                
+                successMessage.classList.remove("hidden");
+                
+                successMessageTimeout = setTimeout(() => {
+                    successMessage.classList.add("hidden");
+                }, 5000);
+            }
+
+            submitButton.addEventListener("click", function (event) {
+                event.preventDefault();
+                let isValid = true;
+
+                inputs.forEach(input => {
+                    if (!validateInput(input)) {
+                        isValid = false;
+                    }
+                });
+
+                if (isValid) {
+                    disableButton();
+                    validateErrorMessage.classList.add("hidden");
+                    errorMessage.classList.add("hidden");
+                    successMessage.classList.add("hidden");
+
+                    const formData = new FormData(form);
+
+                    grecaptcha.ready(function () {
+                        grecaptcha.execute('6LeQ9VUrAAAAAMFJmFNIFj6DLNqE7nztSZaosWzL', {
+                            action: 'submit',
+                        })
+                        .then(function (token) {
+                            formData.append('captcha_token', token);
+
+                            fetch('/actions/contact/contact/send', {
+                                method: 'POST',
+                                body: formData
+                            })
+                            .then(response => {
+                                if (response.ok) {
+                                    return response.json();
+                                } else {
+                                    errorMessage.classList.remove("hidden");
+                                    enableButton();
+                                    return null;
+                                }
+                            })
+                            .then(data => {
+                                if (data) {
+                                    showSuccessMessage();
+                                    form.reset();
+                                }
+                                enableButton();
+                            })
+                            .catch(() => {
+                                errorMessage.classList.remove("hidden");
+                                enableButton();
+                            });
+                        })
+                    })
+                } else {
+                    validateErrorMessage.classList.remove("hidden");
+                    successMessage.classList.add("hidden");
+                    errorMessage.classList.add("hidden");
+                }
+            });
+
+            inputs.forEach(input => {
+                input.addEventListener("input", function () {
+                    validateInput(input);
+                });
+            });
+        });
+    });
+function restoreText() {
+        const elements = document.querySelectorAll('.lineSplit');
+
+        elements.forEach((item) => {
+            const originalHTML = item.dataset.text;
+            if (!originalHTML) return;
+            item.innerHTML = originalHTML; 
+        });
+    }
+
+    function splitTextIntoLines() {
+        const elements = document.querySelectorAll('.lineSplit');
+
+        elements.forEach((item) => {
+
+            const originalHTML = item.dataset.text;
+            if (!originalHTML) return;
+            item.innerHTML = originalHTML; 
+
+            const result = Splitting({ target: item, by: 'lines' });
+            const delay = item.dataset.animationDelay ? parseFloat(item.dataset.animationDelay) : 0;
+            const lines = result[0].lines;
+
+            item.innerHTML = '';
+
+            lines.forEach((line, lineIndex) => {
+                const contentReveal = document.createElement('div');
+                contentReveal.setAttribute('content-reveal', '');
+                contentReveal.setAttribute('data-animation-delay', delay + lineIndex);
+                contentReveal.className = 'w-full';
+
+                const wrapper = document.createElement('div');
+                wrapper.className = 'transform opacity-0 transition-all duration-500 overflow-hidden';
+
+                const span = document.createElement('span');
+                span.className = 'block translate-y-full transition-transform duration-500 ease-out';
+
+                const p = document.createElement('p');
+
+                const text = line.map((wordSpan) => wordSpan.textContent).join(' ');
+                p.textContent = text;
+
+                span.appendChild(p);
+                wrapper.appendChild(span);
+                contentReveal.appendChild(wrapper);
+                item.appendChild(contentReveal);
+            });
+        });
+    }
+
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            restoreText();
+        }, 200);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const lenis = new Lenis({
+            autoRaf: true,
+        });
+
+        splitTextIntoLines();
+
+        const observerContentReveal = new IntersectionObserver((entries) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				const items = entry.target.querySelectorAll('div');
+				items.forEach((item, index) => {
+                    const delay = parseFloat(item.parentElement.dataset.animationDelay);
+					setTimeout(() => {
+						item.classList.remove('opacity-0');
+						item.classList.add('opacity-100');
+
+						const inner = item.querySelector('span');
+						if (inner) {
+							inner.classList.remove('translate-y-full');
+							inner.classList.add('translate-y-0');
+						}
+					}, 100 * delay);
+				});
+
+				observerContentReveal.unobserve(entry.target);
+			}
+		});
+	}, { threshold: 0.2 });
+
+	document.querySelectorAll('[content-reveal]').forEach(list => {
+		observerContentReveal.observe(list);
+	});
+
+    const observerSlideUp = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const items = entry.target.querySelectorAll('div');
+            items.forEach((item, index) => {
+                const delay = parseFloat(item.parentElement.dataset.animationDelay);
+                setTimeout(() => {
+                    item.classList.remove('opacity-0', 'translate-y-10');
+                    item.classList.add('opacity-100', 'translate-y-0');
+                }, delay * 100);
+            });
+            observerSlideUp.unobserve(entry.target);
+        }
+        });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('[slide-up]').forEach(list => {
+		observerSlideUp.observe(list);
+	});
+
+    const observerZoomOut = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const items = entry.target.querySelectorAll('div');
+            items.forEach((item, index) => {
+                const delay = parseFloat(item.parentElement.dataset.animationDelay);
+                setTimeout(() => {
+                    item.classList.remove('scale-110');
+                }, delay * 100);
+            });
+            observerZoomOut.unobserve(entry.target);
+        }
+        });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('[zoom-out]').forEach(list => {
+		observerZoomOut.observe(list);
+	});
+
+
+    const observerZoomIn = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const items = entry.target.querySelectorAll('div');
+            items.forEach((item, index) => {
+                const delay = parseFloat(item.parentElement.dataset.animationDelay);
+                setTimeout(() => {
+                    item.classList.remove('scale-0');
+                }, delay * 100);
+            });
+            observerZoomIn.unobserve(entry.target);
+        }
+        });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('[zoom-in]').forEach(list => {
+		observerZoomIn.observe(list);
+	});
+
+
+    const observerRotate = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const items = entry.target.querySelectorAll('div');
+            items.forEach((item, index) => {
+                const delay = parseFloat(item.parentElement.dataset.animationDelay);
+                setTimeout(() => {
+                    item.classList.remove('rotate-90');
+                }, delay * 100);
+            });
+            observerRotate.unobserve(entry.target);
+        }
+        });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('[rotate]').forEach(list => {
+		observerRotate.observe(list);
+	});
+
+    const observerSlideLeft = new IntersectionObserver((entries) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				const items = entry.target.querySelectorAll('div');
+				items.forEach((item, index) => {
+                    const delay = parseFloat(item.parentElement.dataset.animationDelay);
+					setTimeout(() => {
+						item.classList.remove('opacity-0');
+						item.classList.add('opacity-100');
+
+						const inner = item.querySelector('span');
+						if (inner) {
+							inner.classList.remove('-translate-x-full');
+							inner.classList.add('translate-x-0');
+						}
+					}, 100 * delay);
+				});
+
+				observerSlideLeft.unobserve(entry.target);
+			}
+		});
+	}, { threshold: 0.2 });
+
+	document.querySelectorAll('[slide-left]').forEach(list => {
+		observerSlideLeft.observe(list);
+	});
+
+    });</script></body>
+</html>
